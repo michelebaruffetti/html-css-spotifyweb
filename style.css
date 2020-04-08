@@ -15,7 +15,7 @@ footer  {
 
 aside   {
     height: calc(100vh - 65px);
-    width: 12%;
+    width: 13%;
     background-color: #171500;
     float: left;
 
@@ -33,7 +33,12 @@ main    {
 
 aside   img {
     max-width: 75%;
+    position: relative;
 
+}
+
+.pointer    {
+    cursor: pointer;
 }
 
 .list-personal  {
@@ -43,12 +48,44 @@ aside   img {
     margin-top: 10px;
     padding-left: 4px;
 }
+.list-personal-1  {
+    list-style: none;
+    text-transform: capitalize;
+    color: #8f8c79;
+    margin:3px 0;
+}
 
 .medium-size    {
     font-size: 13px;
 }
 
+.small-size     {
+    font-size: 10px;
+    letter-spacing: 0.6px;
+}
+
 .icon-wrapper   {
     display: inline;
     margin-right: 10px;
+}
+
+h4  {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #8f8c79;
+}
+
+.install-app   {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #8f8c79;
+    margin-bottom: 7px;
+}
+
+#profile    {
+    position: absolute;
+    bottom: 75px;
+    width: calc(13% - 30px);
 }
