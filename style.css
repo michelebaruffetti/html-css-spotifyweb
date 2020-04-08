@@ -24,3 +24,12 @@ main    {
     background: rgb(2,0,36);
     background: linear-gradient(321deg, rgba(2,0,36,1) 0%, rgba(154,138,21,1) 72%);
 }
+
+.padding    {
+    padding: 20px 15px 15px 15px;
+}
+
+aside   img {
+    max-width: 75%;
+
+}
