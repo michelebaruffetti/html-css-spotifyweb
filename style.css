@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body    {
+    font-family: 'Cabin', sans-serif;
+}
 footer  {
     height: 65px;
     background-color: #282828;
@@ -32,4 +34,21 @@ main    {
 aside   img {
     max-width: 75%;
 
+}
+
+.list-personal  {
+    list-style: none;
+    text-transform: capitalize;
+    color: #8f8c79;
+    margin-top: 10px;
+    padding-left: 4px;
+}
+
+.medium-size    {
+    font-size: 13px;
+}
+
+.icon-wrapper   {
+    display: inline;
+    margin-right: 10px;
 }
