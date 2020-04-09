@@ -18,14 +18,14 @@ footer  {
 
 aside   {
     height: calc(100vh - 65px);
-    width: 13%;
+    width: 160px;
     background-color: #171500;
     float: left;
     position: relative;
 }
 
 main    {
-    width: 87%;
+    width: calc(100% - 160px);
     height: calc(100vh - 65px);
     background: rgb(2,0,36);
     background: linear-gradient(321deg, rgba(2,0,36,1) 0%, rgba(154,138,21,1) 72%);
@@ -39,8 +39,8 @@ main    {
 }
 
 aside   img {
-    max-width: 75%;
-    position: relative;
+    width: 90px;
+    object-fit: contain;
 
 }
 
