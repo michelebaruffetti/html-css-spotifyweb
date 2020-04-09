@@ -25,6 +25,7 @@ aside   {
     background-color: #171500;
     float: left;
     position: relative;
+    overflow-y: auto;
 }
 
 main    {
@@ -33,6 +34,7 @@ main    {
     background: rgb(2,0,36);
     background: linear-gradient(321deg, rgba(2,0,36,1) 0%, rgba(154,138,21,1) 72%);
     float:left;
+    overflow-y: auto;
 }
 
 /* SEZIONE ASIDE */
@@ -150,4 +152,6 @@ h1      {
     color: #f7f7f7;
     text-align: center;
 }
+
+
 /* SEZIONE MEDIA QUERY */
