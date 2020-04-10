@@ -205,21 +205,28 @@ h5  {
     background-color: grey;
 }
 
-.slider::-webkit-slider-thumb {
+SLIDER FOOTER RIGHT
+    .slider {
+      -webkit-appearance: none;
+      height: 5px;
+    }
 
-  appearance: none;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  cursor: pointer;
-}
+    .slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: white;
+          cursor: pointer;
+    }
 
-.slider::-moz-range-thumb {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  cursor: pointer;
-}
+    .slider::-moz-range-thumb {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
 
 #footer-center    {
     width: 500px;
