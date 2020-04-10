@@ -192,12 +192,35 @@ h5  {
     color: #a8a6a3;
 }
 
-
 #footer-right    {
     width: 220px;
     height: 100%;
-    background-color: lightblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
+#footer-right-range {
+    height: 2px;
+    background-color: grey;
+}
+
+.slider::-webkit-slider-thumb {
+
+  appearance: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 #footer-center    {
     width: 500px;
     height: 100%;
