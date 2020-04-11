@@ -52,6 +52,9 @@ aside   img {
 .pointer    {
     cursor: pointer;
 }
+.pointer-none   {
+    cursor: default;
+}
 
 .list-personal  {
     list-style: none;
