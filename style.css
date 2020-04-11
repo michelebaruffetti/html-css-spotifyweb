@@ -186,6 +186,7 @@ footer  {
 h5  {
     color: #f7f7f7;
     font-size: 12px;
+    margin-bottom: 2px;
 }
 
 .grigio-footer {
@@ -231,9 +232,12 @@ h5  {
 #footer-center    {
     width: 500px;
     height: 100%;
-    background-color: lightgreen;
+    text-align: center;
 }
 
+.slider-center-width    {
+    width: 75%;
+}
 
 
 /* SEZIONE MEDIA QUERY */
