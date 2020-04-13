@@ -144,6 +144,15 @@ h1      {
     margin: 20px 0;
 }
 
+#hamburger  {
+    position: absolute;
+    top:4px;
+    right: 5px;
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
 .container-album    {
     display: flex;
     flex-wrap: wrap;
@@ -265,6 +274,7 @@ h5  {
         .container-main     {
             width: 90%;
             margin:auto;
+            position: relative;
         }
 
         #footer-right-range  {
@@ -276,9 +286,15 @@ h5  {
             margin-bottom: 10px;
         }
 
+        #hamburger  {
+            display: block;
+        }
+
         .slider-center-width    {
             width: 60%;
         }
+
+
 
 }
 
@@ -360,4 +376,6 @@ h5  {
             margin-right: 7px;
             margin-left: 7px;
         }
+
+
 }
