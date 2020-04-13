@@ -303,8 +303,18 @@ h5  {
             width: calc(100% - 60px);
         }
 
+        .container-main     {
+            width: 80%;
+            margin:auto;
+        }
+        .container-album {
+            justify-content: space-between;
+        }
+
         .album  {
-            width: 95px;
+            width: 90px;
+            margin-right: 7px;
+            margin-left: 7px;
         }
 
         #laterale-1 i   {
