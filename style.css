@@ -240,7 +240,92 @@ h5  {
 
 .slider-center-width    {
     width: 75%;
+    height: 2px;
+    background-color: grey;
 }
 
 
 /* SEZIONE MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+
+        #main-menu  {
+            display: none;
+        }
+
+        .container-main     {
+            width: 90%;
+            margin:auto;
+        }
+
+        #footer-right-range  {
+            width: 60%;
+        }
+
+        h1  {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .slider-center-width    {
+            width: 60%;
+        }
+
+}
+
+@media screen and (max-width: 480px)    {
+
+        #footer-right   {
+            display: none;
+        }
+
+        .slider-center-width    {
+            width: 65%;
+        }
+
+        .text-wrapper   {
+            display: none;
+        }
+
+        #laterale-1  span,
+        aside  h4,
+        .laterale-2,
+        #profile span   {
+
+            display: none;
+        }
+
+        aside   {
+            width: 60px;
+        }
+
+        main    {
+            width: calc(100% - 60px);
+        }
+
+        .album  {
+            width: 95px;
+        }
+
+        #laterale-1 i   {
+            font-size: 15px;
+
+        }
+
+        .icon-wrapper   {
+            margin: 0;
+        }
+
+        #laterale-1     {
+            text-align: center;
+        }
+
+        #laterale-1 li:first-child   {
+            padding-left: 8px;
+        }
+
+        #profile    {
+            text-align: center;
+            font-size: 13px;
+        }
+}
