@@ -1,4 +1,4 @@
-<h4 align="center">Spotifyweb-like page with Media-query responsive design</h4>
+<h4 align="center">Spotifyweb-like page with media-query responsive design</h4>
 
 <p align="center"><img  width="70%" src="https://github.com/michelebaruffetti/html-css-spotifyweb/blob/master/spotifyweb-like.jpg"></p>
 
